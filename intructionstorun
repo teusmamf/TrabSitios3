@@ -1,0 +1,3 @@
+rode a api em uma porta da sua máquina exemplo 
+API->Porta 80
+e o front end em outra o vite rodara padrao na 5147 entao a aplicação funcionará tranquilamente

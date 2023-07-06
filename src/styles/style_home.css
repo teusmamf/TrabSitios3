@@ -1,0 +1,124 @@
+body{
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.div_logado_name{
+  display: flex;
+  align-items: center;
+}
+
+
+nav{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    justify-content: space-between ;
+    margin: 0;
+    width: 300px;
+}   
+
+.image-container {
+  height: 600px;
+  width: 100%;
+  background-image: url('../assets/logoHome.jpg');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: #fff;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+
+
+.btns_navbar a{
+  border-radius: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
+  transition: background-color 0.9s ease;
+  cursor: pointer;
+}
+
+.btns_navbar a:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 249, 249);
+}
+
+.btns_navbar:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 249, 249);
+}
+  .navbar_information{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0px;
+  }
+
+  .pratos_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .div_logado_name li{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .single_plate {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .single_plate h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .single_plate p {
+    font-size: 14px;
+  }
+  
+  .img_plate {
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  

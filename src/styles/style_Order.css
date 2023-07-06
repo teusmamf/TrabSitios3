@@ -1,0 +1,173 @@
+.pratos_container_order {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, minmax(80px, 5fr));
+    gap: 10px;
+  }
+
+  .menu_foods_title{
+    display: flex;
+    justify-content: center;
+}
+
+.container_btn_order_final{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn_order_final {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 10px;
+}
+
+.btn_order_final:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+  color: #000000;
+}
+
+.container_desserts{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: repeat(5, minmax(80px, 5fr));
+  gap: 10px;
+}
+
+.single_plate_order.selected {
+    background-color: #000000; /* Cor de fundo desejada para o prato selecionado */
+    color: #ffffff; /* Cor do texto desejada para o prato selecionado */
+}
+.title_plates_order{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.single_plate_order{
+  cursor: pointer;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.single_dessert_order{
+  cursor: pointer;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.single_dessert_order.selected {
+  background-color: #000000; /* Cor de fundo desejada para o prato selecionado */
+  color: #ffffff; /* Cor do texto desejada para o prato selecionado */
+}
+.img_plate_order{
+  width: 40%;
+  height: 40%;
+}
+
+.img_dessert_order{
+  width: 40%;
+  height: 40%;
+}
+
+.drinks_button_order {
+  border-radius: 7px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #111111;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.drinks_button_order:hover {
+  background-color: #d4d0bf;
+  color: #000000;
+}
+
+
+.container_button_drinks{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.div_showing_orders_clients{
+  display: flex;
+}
+
+.container_showing_orders{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: repeat(1, minmax(80px, 5fr));
+  gap: 10px;
+}
+
+
+.your_orders_title{
+  margin-bottom: 100px;
+  border-bottom: 1px solid black; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_showing_orders_clients{
+  margin-left: 0px;
+  border-top: none;
+}
+
+.table_showing_orders_clients th{
+ border-top: none;
+}
+.div_showing_plates_clients{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  flex-wrap: wrap;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.div_showing_drinks_clients{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.btn_order_clients_showing_final {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 20px 7px 10px 7px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 10px;
+}
+
+.btn_order_clients_showing_final:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+  color: #000000;
+}

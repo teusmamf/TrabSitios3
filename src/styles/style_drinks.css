@@ -1,0 +1,106 @@
+.wines_container {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, minmax(80px, 5fr));
+    gap: 10px;
+  }
+
+.wines_card.selected {
+    background-color: #000000; /* Cor de fundo desejada para o prato selecionado */
+    color: #ffffff; /* Cor do texto desejada para o prato selecionado */
+}
+
+.cokes_card.selected {
+    background-color: #000000; /* Cor de fundo desejada para o prato selecionado */
+    color: #ffffff; /* Cor do texto desejada para o prato selecionado */
+}
+
+.beer_card.selected {
+    background-color: #000000; /* Cor de fundo desejada para o prato selecionado */
+    color: #ffffff; /* Cor do texto desejada para o prato selecionado */
+}
+
+
+.single_plate_order.selected {
+    background-color: #000000; /* Cor de fundo desejada para o prato selecionado */
+    color: #ffffff; /* Cor do texto desejada para o prato selecionado */
+}  
+
+.beer_container{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, minmax(80px, 5fr));
+    gap: 10px;
+  
+}
+
+.cokes_container{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, minmax(80px, 5fr));
+    gap: 10px;
+}
+
+.wines_card{
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+
+.beer_card{
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.cokes_card{
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+
+.img_wine_drinks{
+    width: 50%;
+    height: 50%;
+}
+
+.img_beer_drinks{
+    width: 50%;
+    height: 50%;
+}
+
+.img_cokes_drinks{
+    width: 50%;
+    height: 50%;
+}
+  
+
+.titles_drinks{
+    display: flex;
+    justify-content:center ;
+}
+
+.titles_beers{
+    display: flex;
+    justify-content:center;
+}
+
+.titles_cokes{
+    display: flex;
+    justify-content:center;
+}
+

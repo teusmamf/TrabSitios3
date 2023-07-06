@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;400&family=Prompt&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.LoginPage {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+
+.SignUpPage{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .logo img {
+    max-width: 80%;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    color: black;
+  }
+
+  .form-SignUp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    color: black;
+  }
+
+  
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .signup-container{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+  .login-container h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .signup-container h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .login-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+  .signup-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  .login-container label {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  .signup-container label {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .login-container input {
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  .signup-container input {
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+ 
+ .login-container button {
+    cursor:pointer;
+    text-decoration: none;
+    padding: 0.8em 1.8em;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: black;
+   }
+
+   .signup-container button {
+    cursor:pointer;
+    text-decoration: none;
+    padding: 0.8em 1.8em;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: black;
+   }
+   
+  .login-container button::before {
+    text-decoration: none;
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: black;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+
+   .signup-container button::before {
+    text-decoration: none;
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: black;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+  .login-container button:hover::before {
+    width: 105%;
+   }
+   .signup-container button:hover::before {
+    width: 105%;
+   }
+   
+  .login-container button:hover {
+    color: white;
+   }
+   .signup-container button:hover {
+    color: white;
+   }
+   
+.btns_login_form{
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+
+.link_to_signup{
+    text-decoration: none;
+    margin-left: 10px;
+}

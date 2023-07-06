@@ -1,0 +1,68 @@
+.form_update_cliente {
+   
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container_dataClients{
+    align-items: center;
+    padding: 13%;
+    background: linear-gradient(to bottom, #000, #111);
+    color: #fff;
+  }
+  .form_update_cliente{
+    color: #000;
+  }
+
+  .div_edit_client{
+    display: block;
+  }
+
+  input{
+    margin-bottom: 10px;
+  }
+
+  label{
+    margin-bottom: 10px;
+  }
+  .btn_update_home_final{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding: 6px 7px 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+  }
+
+  .btn_update_home_final:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+  }
+  

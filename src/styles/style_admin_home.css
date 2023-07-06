@@ -1,0 +1,149 @@
+.homebar_admin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Preenche toda a altura vertical */
+    width: 200px; /* Defina a largura desejada */
+    background-color: #f1f1f1;
+    padding: 20px;
+
+    border-right: 3px solid black;
+  }
+  
+  .homebar_admin h2 {
+    margin-bottom: 10px;
+  }
+  
+  .homebar_admin a {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  table{
+    margin-left: 240px;
+    border-top: 2px solid black;
+    
+  }
+
+  .table-beers{
+    margin-left: 180px;
+    border-top: 2px solid black;
+    width: 100%;
+    padding: 60px;
+  }
+
+ .price_admin{
+  margin-left: 20px;
+ }
+
+ td{
+  border: 2px solid black;
+  padding: 20px;
+ }
+  
+  th{
+    padding: 20px;
+    padding-right: 80px;
+    
+  }
+
+  .btns_actions_plates_admin{
+    display: flex;
+    padding: 29px;
+  }
+
+  .btn_edit_admin{
+    margin-right: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn_edit_admin:hover {
+    background-color: #00ff73;
+    color: #000000;
+    transform: scale(1.1);
+  }
+
+  .btn_exclud_admin{
+    margin-right: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .btn_exclud_admin:hover {
+    background-color: rgb(255, 0, 0);
+    color: #000000;
+    transform: scale(1.1);
+  }
+
+
+  input{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  
+.btn_add_admin{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.btn_save{
+  margin-right: 20px;
+}
+
+.title_drinks_no_alcool{
+  margin-left: 250px;
+}
+
+.clients_admin_title{
+  width: 100%;
+  margin-left: 240px;
+  border-bottom: 2px solid black;
+}
+
+.table-clients{
+    
+    border: none;
+    margin-left: 240px;
+    width: 85%;
+}
+
+
+.table_orders_admin{
+  margin-left: 240px;
+}
+
+.container_welcome{
+display: flex;
+justify-content: center;
+}
+
+
+.btn_download_admin{
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+
+.table_plates_admin{
+  width: 84%;
+}
+
+.table_plates_admin td{
+  padding: none;
+}
